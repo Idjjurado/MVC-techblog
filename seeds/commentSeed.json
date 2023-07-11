@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "text": "Division of Left Foot Skin, External Approach",
+    "userId": 1,
+    "postId": 1
+  },
+  {
+    "id": 2,
+    "text": "Alteration of Right Upper Arm with Synthetic Substitute, Percutaneous Endoscopic Approach",
+    "userId": 2,
+    "postId": 2
+  },
+  {
+    "id": 3,
+    "text": "Fluoroscopy of Lumbar Arteries",
+    "userId": 3,
+    "postId": 3
+  },
+  {
+    "id": 4,
+    "text": "Low Dose Rate (LDR) Brachytherapy of Chest using Other Isotope",
+    "userId": 4,
+    "postId": 4
+  },
+  {
+    "id": 5,
+    "text": "Removal of Bandage on Right Thumb",
+    "userId": 5,
+    "postId": 5
+  },
+  {
+    "id": 6,
+    "text": "Introduction of Oxazolidinones into Lower GI, Via Natural or Artificial Opening Endoscopic",
+    "userId": 6,
+    "postId": 6
+  },
+  {
+    "id": 7,
+    "text": "Insertion of Infusion Device into Kidney, Via Natural or Artificial Opening",
+    "userId": 7,
+    "postId": 7
+  },
+  {
+    "id": 8,
+    "text": "Extirpation of Matter from Left Spermatic Cord, Open Approach",
+    "userId": 8,
+    "postId": 8
+  },
+  {
+    "id": 9,
+    "text": "Repair Right Metacarpophalangeal Joint, Percutaneous Approach",
+    "userId": 9,
+    "postId": 9
+  },
+  {
+    "id": 10,
+    "text": "Drainage of Right Colic Artery with Drainage Device, Open Approach",
+    "userId": 10,
+    "postId": 10
+  },
+  {
+    "id": 11,
+    "text": "Replacement of Urethra with Synthetic Substitute, Percutaneous Endoscopic Approach",
+    "userId": 1,
+    "postId": 11
+  },
+  {
+    "id": 12,
+    "text": "Restriction of Cisterna Chyli, Percutaneous Approach",
+    "userId": 2,
+    "postId": 12
+  },
+  {
+    "id": 13,
+    "text": "Repair Right Common Iliac Vein, Open Approach",
+    "userId": 3,
+    "postId": 13
+  },
+  {
+    "id": 14,
+    "text": "Bypass Inferior Mesenteric Vein to Lower Vein, Percutaneous Endoscopic Approach",
+    "userId": 4,
+    "postId": 14
+  },
+  {
+    "id": 15,
+    "text": "Supplement Right Toe Phalangeal Joint with Nonautologous Tissue Substitute, Percutaneous Approach",
+    "userId": 5,
+    "postId": 15
+  },
+  {
+    "id": 16,
+    "text": "Excision of Right Nipple, Via Natural or Artificial Opening, Diagnostic",
+    "userId": 6,
+    "postId": 16
+  },
+  {
+    "id": 17,
+    "text": "Drainage of Left Abdomen Muscle, Percutaneous Endoscopic Approach",
+    "userId": 7,
+    "postId": 17
+  },
+  {
+    "id": 18,
+    "text": "Repair Hypothalamus, Percutaneous Approach",
+    "userId": 8,
+    "postId": 18
+  },
+  {
+    "id": 19,
+    "text": "Removal of Infusion Device from Left Lung, Percutaneous Approach",
+    "userId": 9,
+    "postId": 19
+  },
+  {
+    "id": 20,
+    "text": "Extraction of Posterior Neck Subcutaneous Tissue and Fascia, Open Approach",
+    "userId": 10,
+    "postId": 20
+  }
+]
