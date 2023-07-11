@@ -3,6 +3,7 @@ const connection = require("../config/connection");
 const bcrypt = require("bcrypt");
 
 class User extends Model {
+  // this is a method that will check the password
   checkPassword(loginPw) {
     return bcrypt.compareSync(loginPw, this.password);
   }
@@ -10,6 +11,7 @@ class User extends Model {
 
 User.init(
   {
+    // This key is the one referenced in the other models (comment, post)
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -32,19 +34,23 @@ User.init(
     password: {
       type: DataTypes.STRING,
       allowNull: false,
+      // This is a validation that the password must be at least 8 characters long
       validate: {
         len: [8],
       },
     },
   },
   {
+    // these hooks are for the password hashing
     hooks: {
+      // this beforeCreate hook is for when a new user is created
       beforeCreate: async (newUserData) => {
         const plainTextPassword = newUserData.password;
         const hashedPassword = await bcrypt.hash(plainTextPassword, 10);
         newUserData.password = hashedPassword;
         return newUserData;
       },
+      // this beforeUpdate hook is for when a user is updated
       beforeUpdate: async (updatedUserData) => {
         const plainTextPassword = updatedUserData.password;
         const hashedPassword = await bcrypt.hash(plainTextPassword, 10);
