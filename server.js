@@ -8,7 +8,7 @@ const exphbs = require('express-handlebars');
 const helpers = require('./utils/helpers');
 const hbs = exphbs.create({ helpers });
 
-const routes = require('../MVC-techblog/');
+const routes = require('./controllers');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
