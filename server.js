@@ -1,3 +1,4 @@
+// Description: This file is the entry point for the application. It requires the necessary packages, sets up the Express.js server, and syncs the Sequelize models to the MySQL database.
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -12,6 +13,7 @@ const routes = require('./controllers');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// this sess object will become the value of the session option in the session middleware below
 const sess = {
 
     secret: process.env.SECRET,
